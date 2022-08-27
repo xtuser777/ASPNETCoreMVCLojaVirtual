@@ -16,7 +16,7 @@ namespace LojaVirtual.Libraries.Email
              * SMTP - serviço de envio
              */
             SmtpClient smtpClient = new SmtpClient("smtp.gmail.com", 587);
-            smtpClient.Credentials = new NetworkCredential("lucaoxt@gmail.com", "LonelyCrow777@CG");
+            smtpClient.Credentials = new NetworkCredential("lucaoxt@gmail.com", "");
             smtpClient.EnableSsl = true;
 
             string bodyMsg = string.Format(@"
